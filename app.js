@@ -14,7 +14,7 @@ function card(event) {
     <p class="location">${e.city} <span>· ${e.driveLabel} drive</span></p>
     <h3><a href="${e.url}" target="_blank" rel="noopener noreferrer">${e.name}<span aria-hidden="true"> ↗</span></a></h3><p class="venue">${e.venue}</p><p class="card-summary">${e.summary}</p>
     <div class="quick-facts"><div><span>LISTED ENTRY</span><strong>${e.priceLabel}</strong></div><div><span>DEADLINE</span><strong class="deadline">${closed ? 'Listed deadline passed' : e.deadlineLabel}</strong></div></div>
-    <dl><dt>Divisions & schedule</dt><dd>${e.divisions}</dd><dt>Rating requirements</dt><dd>${e.ratings}</dd><dt>Format</dt><dd>${e.format}</dd></dl>
+    <dl><dt>Men’s doubles</dt><dd>${e.menDetails}</dd><dt>Women’s doubles</dt><dd>${e.womenDetails}</dd><dt>Mixed doubles</dt><dd>${e.mixedDetails}</dd><dt>Format</dt><dd>${e.format}</dd></dl>
     <div class="watch"><strong>Before you register</strong><p>${e.note}</p></div>
     <details><summary>Fees, reporting & registration details</summary><dl><dt>Entry fees</dt><dd>${e.cost}</dd><dt>Registration</dt><dd>${e.deadline}</dd><dt>DUPR reporting</dt><dd>${e.reporting}</dd>${e.email ? `<dt>Organizer contact</dt><dd><a href="mailto:${e.email}">${e.email}</a></dd>` : ''}</dl></details>
     <a class="event-link" href="${e.url}" target="_blank" rel="noopener noreferrer">View event & registration <span aria-hidden="true">↗</span><span class="sr-only"> for ${e.name}</span></a>
@@ -22,7 +22,7 @@ function card(event) {
 }
 function render() {
   const query = search.value.trim().toLowerCase();
-  const events = tournaments.filter(e => (activeFilter === 'all' || (activeFilter === 'confirmed' && e.dupr) || (activeFilter === 'rating' && e.rating) || (activeFilter === 'mixed' && e.mixed)) && Object.values(e).join(' ').toLowerCase().includes(query));
+  const events = tournaments.filter(e => (activeFilter === 'all' || (activeFilter === 'confirmed' && e.dupr) || (activeFilter === 'rating' && e.rating) || (activeFilter === 'mixed' && e.mixed) || (activeFilter === 'women' && e.women) || (activeFilter === 'men' && e.men)) && Object.values(e).join(' ').toLowerCase().includes(query));
   events.sort((a,b) => sort.value === 'drive' ? a.drive-b.drive : sort.value === 'price' ? a.price-b.price : a.date.localeCompare(b.date));
   grid.innerHTML = events.map(card).join('');
   document.querySelector('#result-count').textContent = `Showing ${events.length} of ${tournaments.length} main tournaments · dates shown in local Texas time`;

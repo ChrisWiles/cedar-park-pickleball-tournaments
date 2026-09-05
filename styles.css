@@ -7,3 +7,5 @@
 @media print{.court-art,.toolbar,.filter-row,.primary,.nav-link{display:none}.event-grid{display:block}.event-card{break-inside:avoid;margin:15px 0}.wrap{padding:0}.hero,.recurring{display:block}.event-card details{display:block}body{background:#fff}.leads-section{background:#fff}}
 .header-nav{display:flex;gap:24px;align-items:center}.mlp-section{padding-top:44px;padding-bottom:50px;border-top:1px solid var(--line)}.mlp-section .section-intro{max-width:850px}.mlp-section .provenance{font-size:11px;color:var(--muted);margin-top:24px}.team-date{font-size:12px;font-weight:600;margin:18px 0 12px}.team-card .badge{display:inline-block}.team-card{scroll-margin-top:24px}
 @media(max-width:650px){.header-nav{gap:12px}.header-nav a:last-child{display:none}.mlp-section{padding-top:32px;padding-bottom:35px}.team-date{font-size:13px}}
+
+.division-help{font-size:11px;color:var(--muted);margin:14px 0 0;max-width:800px}

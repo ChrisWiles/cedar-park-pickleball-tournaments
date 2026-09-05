@@ -36,3 +36,7 @@ Google Fonts is optional; system sans-serif fonts render if unavailable. No anal
 ## MLP and team events
 
 The dedicated `#mlp` section includes JOMG at Apex, the unresolved Texas Ranchers lead, two official New Braunfels MiLP events explicitly labeled as outside the original drive range, and recurring Pickleland Saturday play. Local/travel/recurring filters are independent of the doubles filters. JOMG dates, roster size, fees, and its 60-day membership rule were checked in the rendered official website and FAQ on September 5, 2026. Official MiLP listings contain date/template conflicts, retained in each card. Neither generic MLP branding nor a DUPR division label is treated as proof of result reporting. An October Cranky Pickle search lead was omitted because its primary listing could not be verified.
+
+## Doubles divisions
+
+Each main card now separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Liveball’s Sunday mixed tab, Apex’s Saturday/Sunday tabs, Tejas, and Nuron brackets were verified on September 5, 2026. APA’s final women’s grouping and Sun City’s women’s skill brackets remain explicitly subject to confirmation. Tejas mixed includes a lower-rated all-age bracket and a distinct 50+ option. Pickleland Tuesday women’s play is included with the recurring offerings.

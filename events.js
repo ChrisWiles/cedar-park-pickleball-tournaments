@@ -65,12 +65,46 @@ const tournaments = [
 ];
 
 const leads = [
-  {name:'Texas Ranchers Fall Round Up', venue:'The Picklr Round Rock', date:'September 12–13, 2026', tag:'TEAM EVENT · AVAILABILITY UNCONFIRMED', url:'https://app.fluidpb.com/', linkLabel:'Fluid PB event directory',
-   text:'The relevant DUPR-14 division is listed for September 12 at 8 a.m. Four-player cap: 14.9. Matches include men’s, women’s, and mixed doubles. $75 per player. The supplied research showed the all-age DUPR-14 bracket as full; the event is no longer visible in the live directory checked September 5. Confirm event status, venue, availability, and DUPR reporting with the organizer.'},
   {name:'Saturday Showdown', venue:'Pickleball Kingdom · Pflugerville', date:'September 12, 2026 · confirm listing', tag:'MIXED DOUBLES · NEEDS CONFIRMATION', url:'https://pickleballkingdom.com/clubs/pflugerville/', linkLabel:'Club website',
    text:'The supplied club announcement advertises an intermediate mixed doubles tournament. Exact rating limits, entry fee, and DUPR reporting still need confirmation. The September announcement could not be recovered; this link goes to the club website, not a specific registration page.'},
   {name:'Brushy Creek MUD Pickleball Tournament', venue:'Brushy Creek Community Center · Round Rock', date:'September 12, 2026', tag:'YEAR CONFIRMED · BRACKET DETAILS TO CHECK', url:'https://www.bcmud.org/specialevents', linkLabel:'Official event calendar',
-   text:'The official calendar now confirms September 12, 2026. The supplied event details list recreational and competitive men’s and mixed divisions, open to nonmembers, with a September 10 deadline. Reconfirm those division and registration details for 2026. Numerical rating limits and DUPR reporting remain unconfirmed.'},
-  {name:'JOMG Pickleball Club Championship', venue:'Apex · Cedar Park', date:'September 19, 2026 · advertised adult divisions', tag:'CLUB TEAM EVENT · NEEDS CONFIRMATION', url:'https://pcc.jomgpickleball.com/', linkLabel:'Championship website',
-   text:'Club-versus-club competition. Apex’s announcement says adult divisions return September 19. Ask your club about its DUPR-14 lineup, available places, and result reporting. The organizer’s website did not expose enough detail to reverify those points. This requires a club team, rather than only a doubles partner.'}
+   text:'The official calendar now confirms September 12, 2026. The supplied event details list recreational and competitive men’s and mixed divisions, open to nonmembers, with a September 10 deadline. Reconfirm those division and registration details for 2026. Numerical rating limits and DUPR reporting remain unconfirmed.'}
+];
+
+const teamEvents = [
+  {id:'ranchers-mlp', group:'local', name:'Texas Ranchers Fall Round Up', date:'September 12–13, 2026', end:'2026-09-13', venue:'The Picklr Round Rock · Round Rock', status:'Availability unconfirmed',
+    format:'MLP-style mixed team competition. Four-player team; men’s, women’s, and mixed doubles matches.',
+    ratings:'The supplied research lists DUPR-14 at 8 a.m. September 12, with a four-player combined cap of 14.9. Confirm individual limits and team composition.',
+    cost:'$75 per player in the supplied listing ($300 for four players). Registration deadline unconfirmed.',
+    reporting:'DUPR reporting unconfirmed.',
+    note:'Previously listed as full in all-age DUPR-14. The event appears in indexed results but was absent from the live directory. Confirm event status, venue, and availability before planning a team.',
+    url:'https://app.fluidpb.com/', linkLabel:'Check Fluid PB directory'},
+  {id:'jomg-mlp', group:'local', name:'JOMG Pickleball Club Championship', date:'September 19–20, 2026 · confirm division day', end:'2026-09-20', venue:'Apex · Cedar Park · approx. 10–15 min', status:'Club entry required',
+    format:'MLP-style club competition: four starters plus two substitutes. Both Open and 50+ age categories are advertised.',
+    ratings:'DUPR 12, 14, 16, 18, and 20 divisions. Ask the organizer for exact aggregate and individual caps; the division name alone is not the cap.',
+    cost:'$95 per main-roster player; $25 per substitute. Four starters total $380, or $430 with two substitutes. Deadline not published.',
+    reporting:'DUPR reporting unconfirmed.',
+    note:'Players must have been club members for at least 60 days. Club-entry only: ask your club for selection. The site lists September 19–20; the earlier Apex announcement singled out September 19 for adults. Confirm your division’s day.',
+    url:'https://pcc.jomgpickleball.com/', linkLabel:'View championship details', email:'info@jomgpickleball.com'},
+  {id:'newcombe-milp', group:'travel', name:'The Dink MiLP @ John Newcombe Country Club', date:'September 19–20, 2026', end:'2026-09-20', venue:'625 Mission Valley Road · New Braunfels', status:'Longer drive · official MiLP',
+    format:'Four-player mixed teams. Women’s doubles, men’s doubles, and two mixed games; a 2–2 tie triggers a Dreambreaker. Round robin into playoffs; at least three team matches.',
+    ratings:'Published DUPR-14 cap: 14.300 combined, 4.100 maximum per player. Confirm the offered bracket and play day. Each player’s rating locks after joining, signing, and paying.',
+    cost:'$80 per player ($320 for four), plus required active DUPR+ membership.',
+    reporting:'Listing explicitly identifies a DUPR-verified event.',
+    note:'Outside the original local drive range; check navigation. The page displays a September 13, 2027 registration deadline despite the 2026 event—confirm the real deadline. Listed refund cutoff was August 19, 2026 ($25 withdrawal fee). Outdoor venue.',
+    url:'https://pickleballtournaments.com/tournaments/the-dink-minor-league-pickleball-at-john-newcombe-country-club-texas', linkLabel:'View MiLP registration'},
+  {id:'cranky-v3', group:'travel', name:'The Dink MiLP v3 @ Cranky Pickle', date:'September 26–27, 2026', end:'2026-09-27', venue:'624 Krueger Canyon · New Braunfels', status:'Longer drive · three-player v3',
+    format:'Three-player gendered teams: three games to 21 per match, round robin into playoffs. The listing advertises at least three matches and six played games.',
+    ratings:'DUPR-11 permits 11.300 combined, with no player above 4.100. Published alternatives: DUPR-9 (9.300 / 3.600 individual), DUPR-13 (13.300 / 4.600), and DUPR-15 (15.300 / no individual maximum). Confirm bracket availability and day.',
+    cost:'$60 per player ($180 for three), plus required active DUPR+ membership. Registration closes September 19, 2026.',
+    reporting:'Listing explicitly identifies a DUPR-verified event.',
+    note:'Outside the original local drive range. The page mixes generic four-player text with v3 rules; confirm your format. Its August 26 refund cutoff ($25 withdrawal fee) and outdoor policy contain “VERIFY LANGUAGE” placeholders—confirm both.',
+    url:'https://pickleballtournaments.com/tournaments/the-dink-milp-v3-at-cranky-pickle-new-braunfels-texas', linkLabel:'View v3 registration'},
+  {id:'pickleland-mlp', group:'recurring', name:'Pickleland Saturday MLP-style events', date:'Recurring Saturdays · check individual dates', venue:'Pickleland · Pflugerville', status:'Weekly offering · dates unverified',
+    format:'Team play with men’s, women’s, and mixed doubles, plus a Dreambreaker tiebreak. Confirm roster requirements in the individual booking.',
+    ratings:'The club offers skill-based divisions including 3.5. Exact team caps vary by listing and are not confirmed for future Saturdays.',
+    cost:'Weekly mini-tournaments are free for Unlimited members; guests pay a drop-in fee. Check the individual booking for price and deadline.',
+    reporting:'Most club events report to DUPR, but some weekly mini-tournaments do not. Confirm the particular Saturday event.',
+    note:'Recurring program, not a verified calendar of individual tournaments through January 5. Check the booking before assembling a team.',
+    url:'https://pickleland.com/tournaments', linkLabel:'View weekly tournament details', booking:'https://play.pickleland.com/programs'}
 ];

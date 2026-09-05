@@ -1,6 +1,6 @@
 # Next Court — Cedar Park tournament guide
 
-A responsive, static guide to the six main fall 2026 pickleball tournaments in the supplied research, four additional local leads, and Pickleland’s recurring events.
+A responsive, static guide to the six main fall 2026 pickleball tournaments in the supplied research, two additional local doubles leads, five MLP/team options, and Pickleland’s recurring events.
 
 **Live:** https://chriswiles.github.io/cedar-park-pickleball-tournaments/
 
@@ -32,3 +32,7 @@ Open http://localhost:4173. GitHub Pages serves the repository root on `main`; `
 - `app.js`: search, filters, sorting, and card rendering
 
 Google Fonts is optional; system sans-serif fonts render if unavailable. No analytics, accounts, API keys, or backend services are used.
+
+## MLP and team events
+
+The dedicated `#mlp` section includes JOMG at Apex, the unresolved Texas Ranchers lead, two official New Braunfels MiLP events explicitly labeled as outside the original drive range, and recurring Pickleland Saturday play. Local/travel/recurring filters are independent of the doubles filters. JOMG dates, roster size, fees, and its 60-day membership rule were checked in the rendered official website and FAQ on September 5, 2026. Official MiLP listings contain date/template conflicts, retained in each card. Neither generic MLP branding nor a DUPR division label is treated as proof of result reporting. An October Cranky Pickle search lead was omitted because its primary listing could not be verified.

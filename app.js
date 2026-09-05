@@ -42,3 +42,17 @@ window.addEventListener('hashchange', showLinkedCard);
 document.querySelector('#leads').innerHTML=leads.map((e,i)=>`<article class="lead"><span class="lead-number">0${i+1}</span><div><p class="eyebrow">${escapeHtml(e.tag)}</p><h3><a href="${e.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.name)} ↗</a></h3><p class="lead-meta">${escapeHtml(e.date)} · ${escapeHtml(e.venue)}</p><p>${escapeHtml(e.text)}</p><a class="text-link" href="${e.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.linkLabel)} ↗</a></div></article>`).join('');
 render();
 if(location.hash) showLinkedCard();
+
+function renderTeamEvents(filter = 'all') {
+  const visible = teamEvents.filter(e => filter === 'all' || e.group === filter);
+  document.querySelector('#team-count').textContent = `Showing ${visible.length} of ${teamEvents.length} team options · 2 local dated leads, 2 travel alternatives, 1 recurring program`;
+  document.querySelector('#team-grid').innerHTML = visible.map(event => {
+    const e = Object.fromEntries(Object.entries(event).map(([k,v]) => [k, escapeHtml(v)]));
+    return `<article class="event-card team-card" id="${e.id}"><span class="badge ${e.group === 'travel' ? 'unconfirmed' : 'fit'}">${e.status}</span><p class="team-date">${e.date}${event.end && today > event.end ? ' · Event has passed' : ''}</p><h3><a href="${e.url}" target="_blank" rel="noopener noreferrer">${e.name} ↗</a></h3><p class="venue">${e.venue}</p><dl><dt>Team & format</dt><dd>${e.format}</dd><dt>Rating requirements</dt><dd>${e.ratings}</dd><dt>Fees & registration</dt><dd>${e.cost}</dd><dt>DUPR reporting</dt><dd>${e.reporting}</dd></dl><div class="watch"><strong>Before you build your team</strong><p>${e.note}</p></div>${e.email ? `<p><a class="text-link" href="mailto:${e.email}">${e.email}</a></p>` : ''}<a class="event-link" href="${e.url}" target="_blank" rel="noopener noreferrer">${e.linkLabel} ↗<span class="sr-only"> for ${e.name}</span></a>${e.booking ? `<a class="event-link" href="${e.booking}" target="_blank" rel="noopener noreferrer">Browse individual bookings ↗</a>` : ''}</article>`;
+  }).join('');
+}
+document.querySelectorAll('[data-team-filter]').forEach(button => button.addEventListener('click', () => {
+  document.querySelectorAll('[data-team-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+  renderTeamEvents(button.dataset.teamFilter);
+}));
+renderTeamEvents();

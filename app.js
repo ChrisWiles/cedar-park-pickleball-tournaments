@@ -10,7 +10,7 @@ function card(event) {
   const closed = today > event.deadlineDate;
   const past = today > event.end;
   return `<article class="event-card" id="${e.id}" tabindex="-1">
-    <div class="card-top"><div class="date-tile"><span>${e.month}</span><strong>${e.day}</strong><small>2026</small></div><div class="badges"><span class="badge ${e.dupr ? 'confirmed' : 'unconfirmed'}">${e.dupr ? '✓ DUPR confirmed' : 'DUPR unconfirmed'}</span>${e.rating ? '<span class="badge fit">Close rating fit</span>' : ''}${past ? '<span class="badge unconfirmed">Event has passed</span>' : ''}</div></div>
+    <div class="card-top"><div class="date-tile"><span>${e.month}</span><strong>${e.day}</strong><small>2026</small></div><div class="badges"><span class="badge ${e.dupr ? 'confirmed' : 'unconfirmed'}">${e.dupr === true ? '✓ DUPR confirmed' : e.dupr === false ? 'Not DUPR-recorded' : 'DUPR unconfirmed'}</span>${e.rating ? '<span class="badge fit">Close rating fit</span>' : ''}${past ? '<span class="badge unconfirmed">Event has passed</span>' : ''}</div></div>
     <p class="location">${e.city} <span>· ${e.driveLabel} drive</span></p>
     <h3><a href="${e.url}" target="_blank" rel="noopener noreferrer">${e.name}<span aria-hidden="true"> ↗</span></a></h3><p class="venue">${e.venue}</p><p class="card-summary">${e.summary}</p>
     <div class="quick-facts"><div><span>LISTED ENTRY</span><strong>${e.priceLabel}</strong></div><div><span>DEADLINE</span><strong class="deadline">${closed ? 'Listed deadline passed' : e.deadlineLabel}</strong></div></div>

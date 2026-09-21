@@ -1,6 +1,6 @@
 # Next Court — Cedar Park tournament guide
 
-A responsive, static guide to the nine fall 2026 pickleball tournaments, five MLP/team options, and Pickleland’s recurring events.
+A responsive, static guide to eight upcoming fall 2026 pickleball tournaments, two dated MiLP events, and Pickleland’s recurring events.
 
 **Live:** https://chriswiles.github.io/cedar-park-pickleball-tournaments/
 
@@ -19,10 +19,10 @@ Open http://localhost:4173. GitHub Pages serves the repository root on `main`; `
 - Edit the structured records in `events.js` and the edition date in `index.html`.
 - Keep organizer URLs direct where available. Links to general directories or club sites are explicitly labeled.
 - Preserve distinctions between confirmed DUPR reporting (`dupr: true`), explicitly non-recorded events (`dupr: false`), and unknown reporting (`dupr: null`). Rating eligibility alone does not establish reporting.
-- Fees and bracket availability are a September 14, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
+- Fees and bracket availability are a September 21, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
 - September 12–13 leads (Saturday Showdown, Brushy Creek, Texas Ranchers) were removed from upcoming listings after their advertised dates passed. This is not a claim that they occurred or were canceled.
 - Brushy Creek’s 2026 calendar links to the tournament page confirming September 12, a September 10 deadline, and men’s, women’s, and mixed divisions. Numerical ratings and reporting still need confirmation.
-- Sort by listed fee uses the regular $75 directory price for APA, the current $70 price for Nuron, and the relevant first-division fee for other events. Checkout prices may differ.
+- Sort by listed fee uses each event’s current first-division price or the lower live-panel price where sources conflict. Checkout prices may differ.
 
 ## Files
 
@@ -35,11 +35,11 @@ Google Fonts is optional; system sans-serif fonts render if unavailable. No anal
 
 ## MLP and team events
 
-The dedicated `#mlp` section includes JOMG at Apex, three official New Braunfels MiLP events explicitly labeled as outside the original drive range, and recurring Pickleland Saturday play. Local/travel/recurring filters are independent of the doubles filters. JOMG dates, roster size, fees, and its 60-day membership rule were checked in the rendered official website and FAQ on September 14, 2026. Official MiLP listings contain date/template conflicts, retained in each card. Neither generic MLP branding nor a DUPR division label is treated as proof of result reporting. The October Cranky Pickle primary listing became accessible September 14 and is now included.
+The dedicated `#mlp` section includes two official New Braunfels MiLP events explicitly labeled as outside the original drive range, plus recurring Pickleland Saturday play. Travel and recurring filters are independent of the doubles filters. Official MiLP listings contain date and template conflicts, retained in each card. Neither generic MLP branding nor a DUPR division label is treated as proof of result reporting. No upcoming dated local team event was verified on September 21.
 
 ## Doubles divisions
 
-Each main card now separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Liveball’s Sunday mixed tab, Apex’s Saturday/Sunday tabs, Tejas, and Nuron brackets were verified on September 7, 2026. APA’s final women’s grouping and Sun City’s women’s skill brackets remain explicitly subject to confirmation. Tejas mixed includes a lower-rated all-age bracket and a distinct 50+ option. Pickleland Tuesday women’s play is included with the recurring offerings.
+Each main card separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Liveball, Apex, Tejas, Nuron, and Sun City details were refreshed from current organizer pages on September 21, 2026. Sun City’s women’s skill brackets remain subject to confirmation. Tejas women’s and all-age mixed brackets now use a combined 6.0 cap and 3.4 individual maximum; its 50+ mixed option is separate. Pickleland Tuesday women’s play is included with the recurring offerings.
 
 ## September 7 refresh
 
@@ -60,3 +60,15 @@ Coverage now extends through January 14, 2027. Nine doubles events and five team
 - October Cranky Pickle: October 16–18; $70/player plus DUPR+; registration October 9, refund deadline September 16 ($25 fee); DUPR-14 published cap 14.300/4.100. Weather template remains unresolved.
 
 Source review used rendered Fluid pages and JOMG FAQ, organizer APA/Pickleland pages, and accessible primary Swish/MiLP page text. Liveball, Nuron, and Apex bracket panels were expanded and their 3.5 caps rechecked. Liveball now lists $40 men’s/women’s and $52 mixed. Live availability is not guaranteed. All card links were checked by browser or web retrieval; 403 responses and timeouts are access limitations, not evidence of canceled events.
+
+## September 21 refresh
+
+Coverage now extends through January 21, 2027. Eight upcoming doubles events and three team options remain. APA Austin Open, JOMG Club Championship, and the September John Newcombe MiLP were removed after their listed September 19–20 dates passed. No qualifying local December or January event, or upcoming dated local team event, was verified.
+
+- Pickle Ranch: the Tejas September Classic remains scheduled for September 27. Its current description changed women’s eligibility to a combined 6.0 cap and 3.4 individual maximum; men’s remains 7.0 and 3.8.
+- Liveball: the current page now consistently assigns mixed doubles to October 10 and gender doubles to October 11. Registration closes October 8; prices rise after September 26.
+- Sun City: the current rules explicitly say results will not be uploaded to DUPR. First-division cost is $25 plus a $5 technology fee.
+- Blazing Paddles: the current event fee is $10, down from the prior $40 listing. Its cancellation panel still contains stale 2025 dates.
+- Apex: gender doubles are October 24 and mixed doubles October 25. The live panel says $65 while descriptive text says $70, so the fee conflict remains visible.
+
+Current primary pages were reviewed for Nuron, Tejas, Sun City, Baseline, Liveball, Blazing Paddles, Apex, Trey Baring, October Cranky Pickle, and Pickleland. The September Cranky v3 page timed out during this refresh, so its previously verified data is retained and the timeout is not treated as cancellation evidence.

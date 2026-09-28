@@ -19,9 +19,8 @@ Open http://localhost:4173. GitHub Pages serves the repository root on `main`; `
 - Edit the structured records in `events.js` and the edition date in `index.html`.
 - Keep organizer URLs direct where available. Links to general directories or club sites are explicitly labeled.
 - Preserve distinctions between confirmed DUPR reporting (`dupr: true`), explicitly non-recorded events (`dupr: false`), and unknown reporting (`dupr: null`). Rating eligibility alone does not establish reporting.
-- Fees and bracket availability are a September 21, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
-- September 12–13 leads (Saturday Showdown, Brushy Creek, Texas Ranchers) were removed from upcoming listings after their advertised dates passed. This is not a claim that they occurred or were canceled.
-- Brushy Creek’s 2026 calendar links to the tournament page confirming September 12, a September 10 deadline, and men’s, women’s, and mixed divisions. Numerical ratings and reporting still need confirmation.
+- Fees and bracket availability are a September 28, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
+- Completed listings are removed from the upcoming data after their advertised dates pass. This is not a claim that an event occurred or was canceled.
 - Sort by listed fee uses each event’s current first-division price or the lower live-panel price where sources conflict. Checkout prices may differ.
 
 ## Files
@@ -35,11 +34,11 @@ Google Fonts is optional; system sans-serif fonts render if unavailable. No anal
 
 ## MLP and team events
 
-The dedicated `#mlp` section includes two official New Braunfels MiLP events explicitly labeled as outside the original drive range, plus recurring Pickleland Saturday play. Travel and recurring filters are independent of the doubles filters. Official MiLP listings contain date and template conflicts, retained in each card. Neither generic MLP branding nor a DUPR division label is treated as proof of result reporting. No upcoming dated local team event was verified on September 21.
+The dedicated `#mlp` section includes the local Texas Ranchers MiLP at Apex, one official New Braunfels MiLP event labeled as outside the original drive range, and recurring Pickleland Saturday play. Local, travel, and recurring filters are independent of the doubles filters. Official MiLP pages explicitly confirm DUPR verification; generic MLP branding alone is not treated as proof of result reporting.
 
 ## Doubles divisions
 
-Each main card separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Liveball, Apex, Tejas, Nuron, and Sun City details were refreshed from current organizer pages on September 21, 2026. Sun City’s women’s skill brackets remain subject to confirmation. Tejas women’s and all-age mixed brackets now use a combined 6.0 cap and 3.4 individual maximum; its 50+ mixed option is separate. Pickleland Tuesday women’s play is included with the recurring offerings.
+Each main card separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Liveball, Apex, Fall Flannel Fest, Baseline, Blazing Paddles, Sun City, Trey Baring, and the WPT Austin Open were refreshed from current organizer pages on September 28, 2026. Sun City’s women’s skill brackets remain subject to confirmation. Pickleland Tuesday women’s play is included with the recurring offerings.
 
 ## September 7 refresh
 
@@ -72,3 +71,14 @@ Coverage now extends through January 21, 2027. Eight upcoming doubles events and
 - Apex: gender doubles are October 24 and mixed doubles October 25. The live panel says $65 while descriptive text says $70, so the fee conflict remains visible.
 
 Current primary pages were reviewed for Nuron, Tejas, Sun City, Baseline, Liveball, Blazing Paddles, Apex, Trey Baring, October Cranky Pickle, and Pickleland. The September Cranky v3 page timed out during this refresh, so its previously verified data is retained and the timeout is not treated as cancellation evidence.
+
+## September 28 refresh
+
+Coverage now extends through January 28, 2027. Eight upcoming doubles events and three team options remain. Nuron, the Tejas September Classic, and the September Cranky Pickle v3 MiLP were removed after their listed September 26–27 dates passed.
+
+- Fall Flannel Fest: added November 14–15 at Austin Pickle Ranch. Gender doubles are Saturday and mixed doubles Sunday, with combined-DUPR bands around 3.5; all matches are reported. Early entry is $50 through October 12, registration closes November 9, and full refunds run through November 8.
+- Texas Ranchers MiLP: added the November 14–15 local DreamTicket event at Apex. Four-player mixed teams cost $95 per player and require DUPR+. The page publishes standard division caps but currently shows zero players and does not expose which divisions play each day.
+- WPT Austin Open: added the October 24–25 longer-drive Bastrop option. It advertises 3.5 skill and age brackets, six guaranteed matches, and automatic DUPR syncing. The page retains conflicting June template dates and $65/$70 fee text, so both conflicts are visible.
+- Live availability: Liveball lists 37 players, Baseline two, Blazing Paddles 48, Apex 50 of 80, Fall Flannel Fest 13, and the WPT Austin Open 21. Directory totals can lag the direct event pages.
+
+No qualifying local December 2026 or January 2027 dated tournament was verified. The October Cranky Pickle page timed out again, so its previously verified listing remains and the timeout is not treated as cancellation evidence.

@@ -1,6 +1,6 @@
 # Next Court — Cedar Park tournament guide
 
-A responsive, static guide to eight upcoming fall 2026 pickleball tournaments, two dated MiLP events, and Pickleland’s recurring events.
+A responsive, static guide to five upcoming fall and winter 2026 tournament listings, four dated team events, and Pickleland’s recurring programs.
 
 **Live:** https://chriswiles.github.io/cedar-park-pickleball-tournaments/
 
@@ -19,7 +19,7 @@ Open http://localhost:4173. GitHub Pages serves the repository root on `main`; `
 - Edit the structured records in `events.js` and the edition date in `index.html`.
 - Keep organizer URLs direct where available. Links to general directories or club sites are explicitly labeled.
 - Preserve distinctions between confirmed DUPR reporting (`dupr: true`), explicitly non-recorded events (`dupr: false`), and unknown reporting (`dupr: null`). Rating eligibility alone does not establish reporting.
-- Fees and bracket availability are a September 28, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
+- Fees and bracket availability are an October 12, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
 - Completed listings are removed from the upcoming data after their advertised dates pass. This is not a claim that an event occurred or was canceled.
 - Sort by listed fee uses each event’s current first-division price or the lower live-panel price where sources conflict. Checkout prices may differ.
 
@@ -34,11 +34,11 @@ Google Fonts is optional; system sans-serif fonts render if unavailable. No anal
 
 ## MLP and team events
 
-The dedicated `#mlp` section includes the local Texas Ranchers MiLP at Apex, one official New Braunfels MiLP event labeled as outside the original drive range, and recurring Pickleland Saturday play. Local, travel, and recurring filters are independent of the doubles filters. Official MiLP pages explicitly confirm DUPR verification; generic MLP branding alone is not treated as proof of result reporting.
+The dedicated `#mlp` section includes the local Texas Ranchers MiLP at Apex, one official New Braunfels MiLP, two amateur team events in Wimberley, and Pickleland’s recurring program. Local, travel, and recurring filters are independent of the doubles filters. Eligibility enforcement and result reporting are documented separately for every team listing.
 
 ## Doubles divisions
 
-Each main card separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Liveball, Apex, Fall Flannel Fest, Baseline, Blazing Paddles, Sun City, Trey Baring, and the WPT Austin Open were refreshed from current organizer pages on September 28, 2026. Sun City’s women’s skill brackets remain subject to confirmation. Pickleland Tuesday women’s play is included with the recurring offerings.
+Each main card separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Apex, the WPT Austin Open, Trey Baring, and Fall Flannel Fest remain verified doubles options. The December Liveball event is an advance listing and is excluded from division filters until its brackets are published. Pickleland Tuesday women’s play remains in the recurring schedule.
 
 ## September 7 refresh
 
@@ -82,3 +82,17 @@ Coverage now extends through January 28, 2027. Eight upcoming doubles events and
 - Live availability: Liveball lists 37 players, Baseline two, Blazing Paddles 48, Apex 50 of 80, Fall Flannel Fest 13, and the WPT Austin Open 21. Directory totals can lag the direct event pages.
 
 No qualifying local December 2026 or January 2027 dated tournament was verified. The October Cranky Pickle page timed out again, so its previously verified listing remains and the timeout is not treated as cancellation evidence.
+
+## October 12 refresh
+
+Coverage now extends through February 12, 2027. Five main listings and five team options remain. Liveball at PickleTex, Sun City Fall Brawl, Baseline Senior Rated Classic, and Blazing Paddles were removed after their listed dates passed; this does not establish whether they occurred or were canceled.
+
+- Liveball Austin Winter Classic: added as an advance December 11–13 listing. Registration opens October 14. The organizer says the venue is still to be determined, while the page currently maps to Austin-Bergstrom International Airport. Divisions, rating caps, format, deadline, and DUPR reporting remain unpublished.
+- Apex: still lists 50 players, but the capacity display increased from 80 to 138. The $65 panel and $70 description remain in conflict.
+- Fall Flannel Fest: now lists 35 players. The $50 early price ends October 12, registration closes November 9, and all matches remain explicitly DUPR-recorded.
+- Texas Ranchers MiLP: now lists 22 players. Registration closes November 12; division-day assignments remain unpublished.
+- Cranky Pickle MiLP: now lists 64 players and registration closes October 15, correcting the previously retained October 9 deadline.
+- Pickle Y'all: added Hallowteam (October 30–31) and the Turkey Trio (November 21–22) as longer-drive team alternatives. Hallowteam enforces ratings but does not record results; Turkey Trio both enforces and records DUPR.
+- Pickleland: corrected the recurring copy. Weekly brackets are explicitly not DUPR-recorded, and the public weekly schedule no longer claims a standing Saturday team event.
+
+No qualifying January–February 12, 2027 dated event was verified. An absent directory result is not treated as a cancellation or proof that no event will be added later.

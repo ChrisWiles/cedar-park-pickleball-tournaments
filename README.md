@@ -1,6 +1,6 @@
-# Next Court — Cedar Park tournament guide
+# Next Court — Austin and Texas tournament guide
 
-A responsive, static guide to six upcoming fall and winter 2026 tournament listings, three dated team events, and Pickleland’s recurring programs.
+A responsive, static guide to seven upcoming fall and winter 2026 doubles tournaments, three dated team events, and Pickleland’s recurring programs. The default view stays within 40 miles of Cedar Park; a second range reaches roughly two hours, and the statewide view adds Houston and Dallas.
 
 **Live:** https://chriswiles.github.io/cedar-park-pickleball-tournaments/
 
@@ -19,9 +19,10 @@ Open http://localhost:4173. GitHub Pages serves the repository root on `main`; `
 - Edit the structured records in `events.js` and the edition date in `index.html`.
 - Keep organizer URLs direct where available. Links to general directories or club sites are explicitly labeled.
 - Preserve distinctions between confirmed DUPR reporting (`dupr: true`), explicitly non-recorded events (`dupr: false`), and unknown reporting (`dupr: null`). Rating eligibility alone does not establish reporting.
-- Fees and bracket availability are an October 19, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
+- Fees and bracket availability are an October 26, 2026 snapshot. The guide does not automatically discover new events or refresh source data. Passed deadlines and main event dates are labeled using the current date in America/Chicago.
 - Completed listings are removed from the upcoming data after their advertised dates pass. This is not a claim that an event occurred or was canceled.
-- Sort by listed fee uses each event’s current first-division price or the lower live-panel price where sources conflict. Listings with no published fee sort last. Checkout prices may differ.
+- Distances and drive times are planning estimates from central Cedar Park, not live navigation. The 40-mile filter uses approximate distance; the two-hour filter uses a normal-traffic estimate.
+- Sort by listed fee uses each event’s current base or first-division price. Additional event and service fees can apply, so checkout prices may differ.
 
 ## Files
 
@@ -38,7 +39,19 @@ The dedicated `#mlp` section includes the local Texas Ranchers MiLP at Apex, two
 
 ## Doubles divisions
 
-Each main card separates men’s, women’s, and mixed schedules and eligibility. Filters include advertised division categories, not a guarantee of a specific 3.5 bracket. Apex, the WPT Austin Open, Trey Baring, Fall Flannel Fest, and Turkey Bowl are verified doubles options. The December Liveball event is an advance listing and is excluded from division filters until its brackets are published. Pickleland Tuesday women’s play remains in the recurring schedule.
+Each main card separates men’s, women’s, and mixed schedules and eligibility. The division filters now distinguish women’s 3.0, mixed 3.0, and the existing 3.5 categories. A 3.0 filter can include either an exact 3.0 bracket or a clearly published combined-team band that fits 3.0 players; cards call out the difference. Travel range and division filters combine.
+
+## October 26 refresh
+
+Added the requested travel controls: within 40 miles by default, within about two hours, and all listed Texas events. The statewide view adds a San Antonio option at Texas Pickle Hall, The Grove Finals in Dallas, and the ERA Texas Open in The Woodlands. Women’s 3.0 and mixed 3.0 are now first-class filters alongside the existing 3.5 coverage.
+
+- Austin area: Trey Baring and Fall Flannel Fest appear in the default 40-mile view.
+- Two-hour view: adds JOMG San Antonio, Horseshoe Bay Resort Fall Open, and Turkey Bowl in Buda.
+- Statewide view: adds The Grove Finals in Dallas and ERA Pickleball Texas Open near Houston.
+- Completed listings: Apex and the WPT Austin Open were removed after their October 24–25 dates passed.
+- Team events: Texas Ranchers MiLP, Hallowteam, and Turkey Trio availability and rating caps were refreshed.
+
+Primary organizer and registration pages were checked on October 26. Distances are deliberately approximate, while bracket names, fees, deadlines, and DUPR statements stay tied to the published event pages.
 
 ## September 7 refresh
 

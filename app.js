@@ -22,7 +22,20 @@ const filterMatches = {
   women35: event => event.women35,
   mixed35: event => event.mixed35,
   men35: event => event.men35,
+  women40: event => event.women40,
+  mixed40: event => event.mixed40,
+  men40: event => event.men40,
+  women45: event => event.women45,
+  mixed45: event => event.mixed45,
+  men45: event => event.men45,
   confirmed: event => event.dupr === true
+};
+
+const filterLabels = {
+  women30: 'Women’s 3.0', mixed30: 'Mixed 3.0',
+  women35: 'Women’s 3.5', mixed35: 'Mixed 3.5', men35: 'Men’s 3.5',
+  women40: 'Women’s 4.0', mixed40: 'Mixed 4.0', men40: 'Men’s 4.0',
+  women45: 'Women’s 4.5', mixed45: 'Mixed 4.5', men45: 'Men’s 4.5'
 };
 
 const travelMatches = {
@@ -35,7 +48,9 @@ function card(event) {
   const e = Object.fromEntries(Object.entries(event).map(([key, value]) => [key, typeof value === 'string' ? escapeHtml(value) : value]));
   const closed = today > event.deadlineDate;
   const past = today > event.end;
-  const fitBadges = [event.women30 && 'Women’s 3.0', event.mixed30 && 'Mixed 3.0'].filter(Boolean);
+  const fitBadges = filterLabels[activeFilter]
+    ? [filterLabels[activeFilter]]
+    : [event.women30 && 'Women’s 3.0', event.mixed30 && 'Mixed 3.0'].filter(Boolean);
 
   return `<article class="event-card" id="${e.id}" tabindex="-1">
     <div class="card-top"><div class="date-tile"><span>${e.month}</span><strong>${e.day}</strong><small>${e.date.slice(0, 4)}</small></div><div class="badges"><span class="badge ${e.dupr ? 'confirmed' : 'unconfirmed'}">${e.dupr === true ? '✓ DUPR confirmed' : e.dupr === false ? 'Not DUPR-recorded' : 'DUPR unconfirmed'}</span>${fitBadges.map(label => `<span class="badge fit">${label}</span>`).join('')}${past ? '<span class="badge unconfirmed">Event has passed</span>' : ''}</div></div>

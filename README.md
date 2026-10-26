@@ -39,11 +39,11 @@ The dedicated `#mlp` section includes the local Texas Ranchers MiLP at Apex, two
 
 ## Doubles divisions
 
-Each main card separates men’s, women’s, and mixed schedules and eligibility. The division filters now distinguish women’s 3.0, mixed 3.0, and the existing 3.5 categories. A 3.0 filter can include either an exact 3.0 bracket or a clearly published combined-team band that fits 3.0 players; cards call out the difference. Travel range and division filters combine.
+Each main card separates men’s, women’s, and mixed schedules and eligibility. Division filters cover women’s and mixed 3.0, then women’s, mixed, and men’s 3.5, 4.0, and 4.5. A filter can include an exact skill bracket or a clearly published combined-team or “and above” band that fits that player level; cards call out the difference. Travel range and division filters combine.
 
 ## October 26 refresh
 
-Expanded the statewide guide from seven to 25 verified doubles tournaments after a broader review of direct organizer and registration pages. The lineup now contains six San Antonio, ten Houston-area, five Dallas–Fort Worth, three Austin-area, and one Hill Country event. Women’s 3.0 and mixed 3.0 remain first-class filters alongside the existing 3.5 coverage.
+Expanded the statewide guide from seven to 25 verified doubles tournaments after a broader review of direct organizer and registration pages. The lineup now contains six San Antonio, ten Houston-area, five Dallas–Fort Worth, three Austin-area, and one Hill Country event. Division filters now extend through women’s, mixed, and men’s 4.0 and 4.5 coverage.
 
 - Austin area: Trey Baring and Fall Flannel Fest appear in the default 40-mile view.
 - Two-hour view: adds Turkey Bowl in Buda, Horseshoe Bay Resort Fall Open, and six San Antonio tournaments.

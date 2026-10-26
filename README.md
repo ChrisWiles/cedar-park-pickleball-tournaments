@@ -29,17 +29,17 @@ Open http://localhost:4173. GitHub Pages serves the repository root on `main`; `
 - `index.html`: page structure and guide context
 - `styles.css`: responsive layout, keyboard focus styles, reduced-motion and print rules
 - `events.js`: event details and source links
-- `app.js`: search, filters, sorting, and card rendering
+- `app.js`: view tabs, dimensional filters, sorting, URL state, and expandable comparison rows
 
 Google Fonts is optional; system sans-serif fonts render if unavailable. No analytics, accounts, API keys, or backend services are used.
 
-## MLP and team events
+## Team and recurring play
 
-The dedicated `#mlp` section includes the local Texas Ranchers MiLP at Apex, two amateur team events in Wimberley, and Pickleland’s recurring program. Local, travel, and recurring filters are independent of the doubles filters. Eligibility enforcement and result reporting are documented separately for every team listing.
+The `Team events` and `Recurring play` tabs keep team formats and weekly programs separate from dated doubles tournaments. The team view includes the local Texas Ranchers MiLP at Apex, two amateur team events in Wimberley, and Pickleland’s recurring program. Local, travel, and recurring filters are independent of the doubles filters. Eligibility enforcement and result reporting are documented separately for every team listing.
 
 ## Doubles divisions
 
-Each main card separates men’s, women’s, and mixed schedules and eligibility. Division filters cover women’s and mixed 3.0, then women’s, mixed, and men’s 3.5, 4.0, and 4.5. A filter can include an exact skill bracket or a clearly published combined-team or “and above” band that fits that player level; cards call out the difference. Travel range and division filters combine.
+The finder separates play type, skill, travel, date range, DUPR reporting, search, and sort controls. Compact comparison rows show the fields people need to scan first, including bracket fit, drive, listed price, guaranteed games, reporting status, and registration deadline. Expanding a row reveals the complete schedules, eligibility, warnings, fees, source uncertainty, and registration link. A match can be an exact skill bracket or a clearly published combined-team or “and above” band that fits that player level; the row calls out the difference. Filter choices are preserved in the URL for sharing.
 
 ## October 26 refresh
 

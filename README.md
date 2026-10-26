@@ -1,6 +1,6 @@
 # Next Court — Austin and Texas tournament guide
 
-A responsive, static guide to seven upcoming fall and winter 2026 doubles tournaments, three dated team events, and Pickleland’s recurring programs. The default view stays within 40 miles of Cedar Park; a second range reaches roughly two hours, and the statewide view adds Houston and Dallas.
+A responsive, static guide to 25 upcoming fall and winter 2026 doubles tournaments, three dated team events, and Pickleland’s recurring programs. The default view stays within 40 miles of Cedar Park; a second range reaches roughly two hours, and the statewide view covers Austin, San Antonio, Houston, and Dallas–Fort Worth.
 
 **Live:** https://chriswiles.github.io/cedar-park-pickleball-tournaments/
 
@@ -43,15 +43,17 @@ Each main card separates men’s, women’s, and mixed schedules and eligibility
 
 ## October 26 refresh
 
-Added the requested travel controls: within 40 miles by default, within about two hours, and all listed Texas events. The statewide view adds a San Antonio option at Texas Pickle Hall, The Grove Finals in Dallas, and the ERA Texas Open in The Woodlands. Women’s 3.0 and mixed 3.0 are now first-class filters alongside the existing 3.5 coverage.
+Expanded the statewide guide from seven to 25 verified doubles tournaments after a broader review of direct organizer and registration pages. The lineup now contains six San Antonio, ten Houston-area, five Dallas–Fort Worth, three Austin-area, and one Hill Country event. Women’s 3.0 and mixed 3.0 remain first-class filters alongside the existing 3.5 coverage.
 
 - Austin area: Trey Baring and Fall Flannel Fest appear in the default 40-mile view.
-- Two-hour view: adds JOMG San Antonio, Horseshoe Bay Resort Fall Open, and Turkey Bowl in Buda.
-- Statewide view: adds The Grove Finals in Dallas and ERA Pickleball Texas Open near Houston.
+- Two-hour view: adds Turkey Bowl in Buda, Horseshoe Bay Resort Fall Open, and six San Antonio tournaments.
+- Houston area: adds nine events around Katy, the Galleria, Meadows Place, Sugar Land, Porter, Spring, and The Woodlands alongside the ERA Texas Open.
+- Dallas–Fort Worth: adds Opendoor Worlds, Texas Fall Open, Metroplex Gold Cup, and Texas Gold Cup alongside The Grove Finals.
+- Registration details: every card separates confirmed DUPR uploads, explicitly non-recorded events, and listings that only use DUPR for eligibility or do not publish a reporting promise.
 - Completed listings: Apex and the WPT Austin Open were removed after their October 24–25 dates passed.
 - Team events: Texas Ranchers MiLP, Hallowteam, and Turkey Trio availability and rating caps were refreshed.
 
-Primary organizer and registration pages were checked on October 26. Distances are deliberately approximate, while bracket names, fees, deadlines, and DUPR statements stay tied to the published event pages.
+Primary organizer and registration pages were checked on October 26. Distances are deliberately approximate, while bracket names, fees, deadlines, and DUPR statements stay tied to the published event pages. The guide shows source conflicts, including PALA’s $30/$35 price mismatch and Christmas Grand Moneyball’s year mismatch, instead of silently resolving them.
 
 ## September 7 refresh
 
